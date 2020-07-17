@@ -1,7 +1,5 @@
 package fr.isika.projet4.article_microservice.model;
 
-import java.io.Serializable;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

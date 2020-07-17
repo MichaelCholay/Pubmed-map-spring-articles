@@ -25,7 +25,7 @@ public class ArticleController {
 
 	Logger log = LoggerFactory.getLogger(this.getClass());
 
-	private WebClient client = WebClient.create(System.getenv("HOST_NODE")); //http://localhost:9999 
+	private WebClient client = WebClient.create(System.getenv("HOST_NODE")); 
 	private String uriGetArticles;
 
 	// WebCLient getAllArticles with optional dateMini
