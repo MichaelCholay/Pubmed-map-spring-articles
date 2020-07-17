@@ -32,7 +32,7 @@ public class Article {
 
 	
 
-	////////// Constructors fun \\\\\\\\\\
+	////////// Constructors \\\\\\\\\\
 
 	public Article() {
 		super();
