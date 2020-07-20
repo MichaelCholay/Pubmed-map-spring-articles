@@ -24,3 +24,24 @@ Pubmed-map is divided into 4 parts available in this Github account :
    - [Heroku](www.heroku.com), Cloud application platform
    - [ClearDB](www.cleardb.com), Cloud MySQL database
    - [GitHub actions]([https://fr.github.com/features/actions](https://fr.github.com/features/actions)), CI/CD workflow
+
+## How to use Pubmed-map - Spring microservice article
+
+### Installation
+   In your terminal :
+   - clone this repository `git clone https://github.com/MichaelCholay/Pubmed-map-spring-articles.git`
+   - a new folder **pubmed-map_spring** is created
+
+Then, you can import this maven project in your IDE.
+
+### Configuration
+Then, set theses environment variables:
+   - PORT: a free port to run the application
+   - HOST_NODE: the URL of the pubmed-map API-REST
+ 
+### Run
+Command to build the project: `mvn clean package`and run the main class.
+
+### API URL
+A Swagger API documentation is available at ${HOST_NODE}:${PORT}/swagger-ui.html
+#
