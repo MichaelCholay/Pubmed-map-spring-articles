@@ -16,6 +16,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Api("API for get requests of articles")
 @CrossOrigin("*")
