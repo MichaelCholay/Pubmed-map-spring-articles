@@ -18,8 +18,8 @@ public class SwaggerConfig {
 		
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("fr.isika.microservices_assure.controleur"))
-				.paths(PathSelectors.regex("/previt/.*"))
+				.apis(RequestHandlerSelectors.basePackage("fr.isika.projet4.article_microservice.controller"))
+				.paths(PathSelectors.regex("/article-api/public/.*"))
 				.build();
 	}
 
